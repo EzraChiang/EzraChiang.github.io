@@ -1,0 +1,99 @@
+body {
+	background-color: gray;
+	font-size: 14px;
+	font-family: arial;
+	line-height: 1.5;
+	text-align: left;
+
+
+}
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.mainContent h1 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-family: 'Raleway',sans-serif; 
+	font-size: 72px;
+	text-transform: uppercase; 
+	line-height: 72px;
+}
+
+.mainContent img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	bottom: 25px;
+	
+
+}
+
+.mainContent p {
+	width: 100%;
+	padding: 2% 2%;
+	border: solid;
+	border-color: white; 
+	font-weight: bold;
+	vertical-align: top;
+	background-image: url(http://wallpapersqq.net/wp-content/uploads/2015/12/Saitama-vector.jpg);
+
+}
+
+.table {
+	position: relative;
+	left: 20%;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	border: solid;
+	border-color: black;
+}
+
+#th {
+	color: orange; 
+	text-transform: uppercase;
+	background-color: black;
+}
+
+.td {
+	background-color: blue;
+	text-transform: uppercase;
+}
+
+.td2 {
+	background-color: red;
+	text-transform: uppercase;
+}
+
+.mainContent ul {
+	position: relative;
+	left: 25%;
+	bottom: 15px;
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	border:solid;
+	border-color; black;
+	background-image: url(https://d3ieicw58ybon5.cloudfront.net/ex/680.438/45.0.768.496/u/8e42f4072f804732a790020664f712d1.jpg);
+}
+
+.mainContent ul li ol {
+	font-weight: bold; 
+	text-align: left;
+}
+
+.mainContent footer {
+	text-align: center;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
