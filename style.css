@@ -89,8 +89,16 @@ body {
 	text-align: left;
 }
 
-a {
+a:link {
 	text-decoration: none;
+}
+
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	color:red;
 }
 
 p {
