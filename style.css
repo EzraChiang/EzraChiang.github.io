@@ -1,0 +1,214 @@
+body {
+	background-color: gray;
+	font-size: 14px;
+	font-family: arial;
+	line-height: 1.5;
+	text-align: left;
+
+
+}
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.mainContent h1 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-family: 'Raleway',sans-serif; 
+	font-size: 72px;
+	text-transform: uppercase; 
+	line-height: 72px;
+}
+
+.mainContent img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	bottom: 25px;
+	
+
+}
+
+.mainContent p {
+	width: 100%;
+	padding: 2% 2%;
+	border: solid;
+	border-color: white; 
+	font-weight: bold;
+	vertical-align: top;
+	background-image: url(http://wallpapersqq.net/wp-content/uploads/2015/12/Saitama-vector.jpg);
+
+}
+
+.table {
+	position: relative;
+	left: 20%;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	border: solid;
+	border-color: black;
+}
+
+#th {
+	color: orange; 
+	text-transform: uppercase;
+	background-color: black;
+}
+
+.td {
+	background-color: blue;
+	text-transform: uppercase;
+}
+
+.td2 {
+	background-color: red;
+	text-transform: uppercase;
+}
+
+.mainContent ul {
+	position: relative;
+	left: 25%;
+	bottom: 15px;
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	border:solid;
+	border-color; black;
+	background-image: url(https://d3ieicw58ybon5.cloudfront.net/ex/680.438/45.0.768.496/u/8e42f4072f804732a790020664f712d1.jpg);
+}
+
+.mainContent ul li ol {
+	font-weight: bold; 
+	text-align: left;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	color:red;
+}
+
+p {
+	text-align: center;
+	width: 100%
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+ h2 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-family: 'Raleway',sans-serif; 
+	font-size: 50px;
+	text-transform: uppercase; 
+	line-height: 50px;
+}
+
+img {
+	width: 100%;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-family: 'Raleway',sans-serif; 
+	font-size: 50px;
+	text-transform: uppercase; 
+	line-height: 50px;
+}
+
+.section p {
+	border: solid;
+	background-image: url(https://d3ieicw58ybon5.cloudfront.net/ex/680.438/45.0.768.496/u/8e42f4072f804732a790020664f712d1.jpg);
+}
+
+.section2 p {
+	border: solid;
+	background-image: url(https://d3ieicw58ybon5.cloudfront.net/ex/680.438/45.0.768.496/u/8e42f4072f804732a790020664f712d1.jpg);
+}
+.section2 ol {
+	text-align: left;
+	text-transform: uppercase;
+	color: white;
+}
+
+.section3 h4 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-family: 'Raleway',sans-serif; 
+	font-size: 50px;
+	text-transform: uppercase; 
+	line-height: 50px;
+}
+
+.section3 img {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.section3 form {
+	display: inline-block;
+	padding-left: 10%;
+}
+.label {
+	font-weight: bold;
+}
+
+.section3 button {
+	color: red;
+	background-color: black;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+.table {
+	width: 100%;
+	padding: 2%;
+}
+.mainContent ul {
+	width: 100%;
+	padding: 2%;
+}
+}
+
+@media screen and (max-width: 420px) {
+	h3 {
+font-size: 30px;
+width: 100%
+}
+	.section3 h4 {
+font-size: 30px;
+width:100%;
+}
+.section3 img {
+	width: 100%;
+	padding: 5%;
+}
+
+.section3 form {
+	width:100%;
+}
+
+.section3 textarea {
+	width: 100%;
+	padding: 5%;
+}
+
+  }
