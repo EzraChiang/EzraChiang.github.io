@@ -79,8 +79,8 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	width: 30%;
-	border:solid;
-	border-color; black;
+	border: solid;
+	border-color: black;
 	background-image: url(https://d3ieicw58ybon5.cloudfront.net/ex/680.438/45.0.768.496/u/8e42f4072f804732a790020664f712d1.jpg);
 }
 
@@ -103,7 +103,7 @@ a:hover {
 
 p {
 	text-align: center;
-	width: 100%
+	width: 100%;
 	text-transform: uppercase;
 	font-weight: bold;
 }
